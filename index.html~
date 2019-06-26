@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+	<link href="style.css" rel="stylesheet"/>
+	<title>Start page!</title>
+  </head>
+  <body>
+	<div class="favorited_links">
+	  <table>
+		<tr>
+          <td><a href=""><button class="favorited_links">Mail</button></a></td>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+		</tr>
+		<tr>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+		</tr>
+		<tr>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+          <td><a href=""><button class="favorited_links"></button></a></td>
+		</tr>
+	  </table>
+	</div>
+  </body>
+</html>
