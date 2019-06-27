@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+
+  <link href="static/style.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <title>Start page!</title>
+</head>
+<body>
+  <h3 class="hi_msg" >Hello, {{ user.name }}</h1>
+    <button class="button_controller" onclick="allow_Move()">allow move</button>
+    <table id="favorite" class="favorite">
+      <tr>
+        <td><a href="https://mail.ru"><button class="">Mail</button></a></td>
+        <td><a href="https://github.com"><button class="">GitHub</button></a></td>
+        <td><a href="https://vk.com"><button class="">VK</button></a></td>
+      </tr>
+      <tr>
+        <td><a href="https://reddit.com"><button class="">Reddit</button></a></td>
+        <td><a href="https://youtube.com"><button class="">YouTube</button></a></td>
+        <td><a href="https://twitch.com"><button class="">Twitch</button></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="/settings"><button class="">Settings</button></a></td>
+        <td><a href="#"><button class="">Media</button></a></td>
+        <td><a href="#"><button class="">Code</button></a></td>
+      </tr>
+    </table>
+    <span id="time_view"></span>
+    <script src="static/script.js" charset="utf-8"></script>
+    <script src="static/time_changing.js" charset="utf-8"></script>
+  </body>
+  </html>
